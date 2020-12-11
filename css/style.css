@@ -1,0 +1,214 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    font-size: 16px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* ...........................the navbar............................ */
+
+.navbar-nav {
+    text-align: left;
+}
+
+.navbar-light .navbar-toggler {
+    outline: none;
+    border: none;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(59,173,230,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* .................................the header............................... */
+
+.parent_intro {
+    background-image: url(../images/header-side.jpg);
+    background-size: 64.4% 95%;
+    background-repeat: no-repeat;
+}
+
+.intro h1 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    line-height: 1.86em;
+    margin-top: 80px;
+}
+@media screen and (max-width:991px) and (min-width:0px){
+    .intro h1 {
+        font-size: 1.8rem;
+    }
+    header img{
+        height: 50%;
+
+    }
+}
+
+/* ..................................section2 who_are_we........................ */
+
+h2 {
+    text-align: center;
+    font-weight: 600;
+    position: relative;
+}
+
+h2::after {
+    content: "";
+    background-color: #3aade6;
+    position: absolute;
+    top: 150%;
+    left: 47.2%;
+    width: 5.5%;
+    height: 2px;
+}
+
+.who_are_we p {
+    font-size: 1.1rem;
+    font-weight: 550;
+    line-height: 2.3em;
+}
+@media screen and (max-width:1220px) and (min-width:991px){
+    .who_are_we p{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:991px) and (min-width:0px){
+    .who_are_we p{
+        font-size: 0.8rem;
+    }
+}
+
+
+/* ..................................section3 we_offer_you........................ */
+.we_offer{
+    background-image: url(../images/we-offer.png);
+    background-size: 105% 100%;
+    background-repeat: no-repeat;
+}
+.owl-carousel .owl-nav.disabled {
+    display: inherit;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 35px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+    margin-left: 40px;
+    color: grey !important
+}
+.owl-carousel .owl-nav button.owl-next{
+    color: black !important;
+}
+.card {
+    border-radius: 1.25rem;
+}
+.we_offer_you .card h4 {
+    font-size: 0.76rem;
+    color: #3aade6;
+}
+.we_offer_you .card p {
+    font-weight: 650;
+    font-size: 0.82rem;
+    line-height: 1.68em;
+    direction: ltr;
+}
+
+
+/* ..................................section4 we_offer_you........................ */
+.our_business{
+    background-image: url(../images/bg30-Ar1web.gif);
+    /* background-repeat: no-repeat; */
+    
+}
+.our_business .card, .read_now .card{
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    box-shadow: 10px 10px 10px rgb(185, 183, 183);
+}
+.our_business .card img , .read_now .card img{
+    border-radius: 1.25rem;
+}
+.our_business .card h4, .read_now .card h4{
+    font-size: 1rem;
+    font-weight: 550;
+}
+.our_business .seeing a{
+    text-decoration: none;
+    color: white;
+    padding: 7px 75px;
+    background:#233142 ; 
+    border-radius: 1.25rem;
+    font-weight: 500;
+    font-size: 1rem;
+    box-shadow: 10px 10px 10px rgb(197, 195, 195);
+
+}
+
+/* ..................................section5 read_now........................ */
+.read_now .seeing a , .read_now .card a{
+    background:#233142 ;
+    color: white;
+    padding: 3px 20px;
+    border-radius: 1.25rem;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+.read_now h4{
+    line-height: 1.38em;
+}
+.read_now  .elmazeed a{
+    padding: 7px 80px;
+    box-shadow: 7px 7px 10px rgb(197, 195, 195);
+}
+
+
+/* ..................................section5 our proud ........................ */
+.our_proud .proudImg{
+    background-image: url("../images/our-client-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+}
+.our_proud .card{
+    width: 60%;
+}
+
+.social{
+    background-image: url("../images/footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.logo2{
+    width: 20%;
+    height: 10%;
+}
+footer .info span{
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+footer .info p{
+    font-size: 0.3rem;
+    font-weight: 500;
+    
+}
+footer .about{
+    font-weight: 500;
+    font-size: 1rem;
+}
+footer .icons i{
+    color: white;
+    height: 100px;
+    font-size: 30px;
+    margin-right: 20px;
+    
+}
+.owl-nav{
+    display: flex;
+    justify-content: center;
+}
+
+
