@@ -31,7 +31,7 @@ img {
 }
 
 .intro h1 {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
     font-weight: 600;
     line-height: 1.86em;
     margin-top: 80px;
@@ -106,6 +106,9 @@ h2::after {
     display: flex;
     justify-content: center;
 }
+button:focus {
+    outline: none;
+}
 .card {
     border-radius: 1.25rem;
 }
@@ -121,16 +124,18 @@ h2::after {
 }
 
 
-/* ..................................section4 we_offer_you........................ */
+/* ..................................section4 our_business ........................ */
 .our_business{
     background-image: url(../images/bg30-Ar1web.gif);
     /* background-repeat: no-repeat; */
     
 }
 .our_business .card, .read_now .card{
-    border-left: 2px solid white;
-    border-right: 2px solid white;
     box-shadow: 10px 10px 10px rgb(185, 183, 183);
+}
+.our_business .card a{
+    text-decoration: none;
+    color: black;
 }
 .our_business .card img , .read_now .card img{
     border-radius: 1.25rem;
@@ -179,6 +184,10 @@ h2::after {
 .our_proud .card{
     width: 60%;
 }
+/* .our_proud .owl-carousel .owl-stage-outer .owl-stage .owl-item:active{
+    width: 161.5px;
+    margin-left: 141px;
+} */
 
 /* ..................................section6 footer ........................ */
 .social{
