@@ -36,13 +36,13 @@ img {
     line-height: 1.86em;
     margin-top: 80px;
 }
-@media screen and (max-width:991px) and (min-width:0px){
+
+@media screen and (max-width:991px) and (min-width:0px) {
     .intro h1 {
         font-size: 1.8rem;
     }
-    header img{
+    header img {
         height: 50%;
-
     }
 }
 
@@ -69,24 +69,27 @@ h2::after {
     font-weight: 550;
     line-height: 2.3em;
 }
-@media screen and (max-width:1220px) and (min-width:991px){
-    .who_are_we p{
+
+@media screen and (max-width:1220px) and (min-width:991px) {
+    .who_are_we p {
         font-size: 1rem;
     }
 }
-@media screen and (max-width:991px) and (min-width:0px){
-    .who_are_we p{
+
+@media screen and (max-width:991px) and (min-width:0px) {
+    .who_are_we p {
         font-size: 0.8rem;
     }
 }
 
-
 /* ..................................section3 we_offer_you........................ */
-.we_offer{
+
+.we_offer {
     background-image: url(../images/we-offer.png);
     background-size: 105% 100%;
     background-repeat: no-repeat;
 }
+
 .owl-carousel .owl-nav.disabled {
     display: inherit;
     text-align: center;
@@ -95,27 +98,34 @@ h2::after {
     font-weight: bolder;
     letter-spacing: 2px;
 }
-.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
     margin-left: 40px;
     color: grey !important
 }
-.owl-carousel .owl-nav button.owl-next{
+
+.owl-carousel .owl-nav button.owl-next {
     color: black !important;
 }
-.owl-nav{
+
+.owl-nav {
     display: flex;
     justify-content: center;
 }
+
 button:focus {
     outline: none;
 }
+
 .card {
     border-radius: 1.25rem;
 }
+
 .we_offer_you .card h4 {
     font-size: 0.76rem;
     color: #3aade6;
 }
+
 .we_offer_you .card p {
     font-weight: 650;
     font-size: 0.82rem;
@@ -123,117 +133,155 @@ button:focus {
     direction: ltr;
 }
 
-
 /* ..................................section4 our_business ........................ */
-.our_business{
+
+.our_business {
     background-image: url(../images/bg30-Ar1web.gif);
     /* background-repeat: no-repeat; */
-    
 }
-.our_business .card, .read_now .card{
+
+.our_business .card, .read_now .card {
     box-shadow: 10px 10px 10px rgb(185, 183, 183);
+    transition: all 0.6s ;
 }
-.our_business .card a{
+
+.our_business .card a {
     text-decoration: none;
     color: black;
 }
-.our_business .card img , .read_now .card img{
+.our_business .card:hover {
+   transform: scale(1.1,1.1);
+}
+
+.our_business .card img, .read_now .card img {
     border-radius: 1.25rem;
 }
-.our_business .card h4, .read_now .card h4{
+
+.our_business .card h4, .read_now .card h4 {
     font-size: 1rem;
     font-weight: 550;
 }
-.our_business .seeing a{
+
+.our_business .seeing a {
     text-decoration: none;
     color: white;
     padding: 7px 75px;
-    background:#233142 ; 
+    background: #233142;
     border-radius: 1.25rem;
     font-weight: 500;
     font-size: 1rem;
     box-shadow: 10px 10px 10px rgb(197, 195, 195);
-
 }
+.our_business .seeing{
+    transition: all 0.6s ;
+}
+.our_business .seeing:hover {
+    transform: translateX(30px);
+ }
 
 /* ..................................section5 read_now........................ */
-.read_now .seeing a , .read_now .card a{
-    background:#233142 ;
+
+.read_now .seeing a, .read_now .card a {
+    background: #233142;
     color: white;
     padding: 3px 20px;
     border-radius: 1.25rem;
     font-size: 0.9rem;
     text-decoration: none;
+    transition: all 0.6s ;
 }
-.read_now h4{
+.read_now .seeing a:hover, .read_now .card a:hover {
+    transform: scale(1.1,1.1);
+    color: #0073ff;
+}
+.read_now h4 {
     line-height: 1.38em;
 }
-.read_now  .elmazeed a{
+
+.read_now .elmazeed a {
     padding: 7px 80px;
     box-shadow: 7px 7px 10px rgb(197, 195, 195);
 }
-
+.read_now .elmazeed{
+    transition: transform 0.6s ;
+}
+.read_now .elmazeed:hover {
+    transform: translateX(20px) scale(1.1,1.1);;
+    
+}
 
 /* ..................................section5 our proud ........................ */
-.our_proud .proudImg{
+
+.our_proud .proudImg {
     background-image: url("../images/our-client-bg.jpg");
     background-repeat: no-repeat;
     background-position: 100% 100%;
     background-size: cover;
 }
-.our_proud .card{
+
+.our_proud .card {
     width: 60%;
 }
+
 /* .our_proud .owl-carousel .owl-stage-outer .owl-stage .owl-item:active{
     width: 161.5px;
     margin-left: 141px;
 } */
 
 /* ..................................section6 footer ........................ */
-.social{
+
+.social {
     background-image: url("../images/footer.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
 }
-.logo2{
+
+.logo2 {
     width: 20%;
     height: 10%;
 }
-footer .info span{
+
+footer .info span {
     font-weight: 700;
     font-size: 1.3rem;
 }
-footer .info p{
+
+footer .info p {
     font-size: 0.3rem;
     font-weight: 500;
-    
 }
-footer .about{
+
+footer .about {
     font-weight: 500;
     font-size: 1rem;
 }
-footer .icons i{
+
+footer .icons i {
     color: white;
     height: 100px;
     font-size: 30px;
     margin-right: 20px;
-    transition:all 1s ;  
+    transition: all 1s;
 }
-footer .icons i:hover{
+
+footer .icons i:hover {
     color: #7ccef7;
-    transform: translateX(5px) scale(1.1,1.1);
+    transform: translateX(5px) scale(1.1, 1.1);
 }
 
 /* /////////////////////////////////////////////////////////////////////////////////////////// */
-/* ..................................page two  ........................ */
-.page2_our_business .our_business h3 , h3{
+
+/* ..................................page two (our_business)  ........................ */
+
+.page2_our_business .our_business h3, h3 {
     padding: 45px 20px;
     margin-right: 5%;
     font-size: 1.7rem;
     font-weight: 700;
 }
-.page2_our_business .our_business h3::before , h3::before {
+
+.page2_our_business .our_business h3::before, h3::before {
     content: "";
     background-color: #3aade6;
     position: absolute;
@@ -243,14 +291,16 @@ footer .icons i:hover{
     height: 5px;
     transform: rotate(90deg);
 }
-@media screen and (max-width:1200px) and (min-width:750px){
-    .page2_our_business .our_business h3::before,h3::before {
+
+@media screen and (max-width:1200px) and (min-width:750px) {
+    .page2_our_business .our_business h3::before, h3::before {
         top: 27%;
         right: 3.5%;
         width: 5%;
     }
 }
-@media screen and (max-width:751px) and (min-width:0px){
+
+@media screen and (max-width:751px) and (min-width:0px) {
     .page2_our_business .our_business h3::before, h3::before {
         top: 27%;
         right: 3%;
@@ -260,22 +310,316 @@ footer .icons i:hover{
 
 .page-link:hover {
     color: white;
-    background-color:#3aade6 ;
+    background-color: #3aade6;
 }
-.pagination .first a{
-    background-color:#3aade6 ;
+
+.pagination .first a {
+    background-color: #3aade6;
     color: white;
 }
-.pagination{
+
+.pagination {
     font-size: 24px;
     font-weight: 700;
     margin-top: 18px;
 }
 
 /* /////////////////////////////////////////////////////////////////////////////////////////// */
-/* ..................................page three  ........................ */
-.page3 .read_now{
+
+/* ..................................page three (articles)  ........................ */
+
+.page3 .read_now {
     background-image: url(../images/articles.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* ..................................page four(appliction)  ........................ */
+
+.page4 .apps .details h3::before {
+    content: "";
+    background-color: #3aade6;
+    position: absolute;
+    top: 109%;
+    right: 3.5%;
+    width: 4%;
+    height: 5px;
+    transform: rotate(90deg);
+}
+
+@media screen and (max-width:1200px) and (min-width:992px) {
+    .page4 .apps .details h3::before {
+        top: 100%;
+        right: 3.5%;
+        width: 5%;
+    }
+}
+
+@media screen and (max-width:991px) and (min-width:768px) {
+    .page4 .apps .details h3::before {
+        top: 86%;
+        right: 3%;
+        width: 6%;
+    }
+}
+
+@media screen and (max-width:767px) and (min-width:0px) {
+    .page4 .apps .details h3::before {
+        top: 75%;
+        right: 2%;
+        width: 9%;
+    }
+}
+
+.page4 .details_text {
+    background-image: url(../images/details-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+
+/* start of responsove off rounded div */
+
+.page4 .apps .rounded h3::before {
+    content: "";
+    background-color: #3aade6;
+    position: absolute;
+    top: 179%;
+    right: 3%;
+    width: 5%;
+    height: 5px;
+    transform: rotate(90deg);
+}
+
+@media screen and (max-width:1351px) and (min-width:1201px) {
+    .page4 .apps .rounded h3::before {
+        top: 185%;
+        right: 3.4%;
+        width: 4.5%;
+    }
+}
+
+@media screen and (max-width:991px) and (min-width:963px) {
+    .page4 .apps .rounded h3::before {
+        top: 170%;
+        right: 3.4%;
+        width: 4.5%;
+    }
+}
+
+@media screen and (max-width:962px) and (min-width:863px) {
+    .page4 .apps .rounded h3::before {
+        top: 175%;
+        right: 3.4%;
+        width: 5.5%;
+    }
+}
+
+@media screen and (max-width:862px) and (min-width:790px) {
+    .page4 .apps .rounded h3::before {
+        top: 180%;
+        right: 3.4%;
+        width: 5.5%;
+    }
+}
+
+@media screen and (max-width:791px) and (min-width:766px) {
+    .page4 .apps .rounded h3::before {
+        top: 185%;
+        right: 3.4%;
+        width: 5.5%;
+    }
+}
+
+@media screen and (max-width:765px) and (min-width:720px) {
+    .page4 .apps .rounded h3::before {
+        top: 175%;
+        right: 2.4%;
+        width: 6.5%;
+    }
+}
+
+@media screen and (max-width:721px) and (min-width:636px) {
+    .page4 .apps .rounded h3::before {
+        top: 185%;
+        right: 2.4%;
+        width: 7.5%;
+    }
+}
+
+@media screen and (max-width:635px) and (min-width:589px) {
+    .page4 .apps .rounded h3::before {
+        top: 195%;
+        right: 2.4%;
+        width: 7.5%;
+    }
+}
+
+@media screen and (max-width:590px) and (min-width:552px) {
+    .page4 .apps .rounded h3::before {
+        top: 198%;
+        right: 2.4%;
+        width: 7.5%;
+    }
+}
+
+@media screen and (max-width:551px) and (min-width:526px) {
+    .page4 .apps .rounded h3::before {
+        top: 205%;
+        right: 2.4%;
+        width: 8.5%;
+    }
+}
+
+@media screen and (max-width:525px) and (min-width:0px) {
+    .page4 .apps .rounded h3::before {
+        top: 212%;
+        right: 2.4%;
+        width: 8.5%;
+    }
+}
+
+/* end of responsove off rounded div */
+
+/* ********************************************************************************** */
+
+.card-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.card-carousel .my-card {
+    height: 30rem;
+    width: 12rem;
+    position: relative;
+    z-index: 1;
+    -webkit-transform: scale(0.6) translateY(-2rem);
+    transform: scale(0.6) translateY(-2rem);
+    opacity: 0;
+    cursor: pointer;
+    pointer-events: none;
+    /* background: #2e5266; */
+    /* background: linear-gradient(to top, #2e5266, #6e8898); */
+    transition: 1s;
+}
+
+.card-carousel .my-card:after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    bottom: -5rem;
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+}
+
+.card-carousel .my-card.active {
+    z-index: 3;
+    -webkit-transform: scale(1) translateY(0) translateX(0);
+    transform: scale(1) translateY(0) translateX(0);
+    opacity: 1;
+    pointer-events: auto;
+    transition: 1s;
+}
+
+.card-carousel .my-card.prev, .card-carousel .my-card.next {
+    z-index: 2;
+    -webkit-transform: scale(0.8) translateY(-1rem) translateX(0);
+    transform: scale(0.8) translateY(-1rem) translateX(0);
+    opacity: 0.6;
+    pointer-events: auto;
+    transition: 1s;
+}
+
+.card-carousel .my-card:nth-child(0):before {
+    content: '0';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.card-carousel .my-card:nth-child(1):before {
+    content: '1';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.card-carousel .my-card:nth-child(2):before {
+    content: '2';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.card-carousel .my-card:nth-child(3):before {
+    content: '3';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.card-carousel .my-card:nth-child(4):before {
+    content: '4';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+/* ******************************************************************************* */
+
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* ..................................page five(read_now)  ........................ */
+
+.page5 {
+    background-image: url(../images/bg30-Ar1web.gif);
+}
+
+.page5 p {
+    font-size: 20.6px;
+    font-weight: 700;
+    line-height: 3em;
+}
+
+.page5 img {
+    border-radius: 1.25rem;
+    box-shadow: 10px 10px 10px rgb(228, 228, 228);
+    width: 65%;
+}
+.page5 .card{
+    box-shadow: 10px 10px 10px rgb(160, 157, 157);
 }
